@@ -14,3 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "TSBMock"
 include ':app'
+include ':SharedModule'
+project(':SharedModule').projectDir = new File(rootDir, 'SharedMock/SharedModule/')
+include ':SharedModule'

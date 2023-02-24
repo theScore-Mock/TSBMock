@@ -1,0 +1,3 @@
+[submodule "SharedMock"]
+	path = SharedMock
+	url = git@github.com:amirziaratii/SharedMock.git

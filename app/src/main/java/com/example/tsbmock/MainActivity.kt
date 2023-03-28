@@ -10,6 +10,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //////
+        ///// some other changes needed to be done to address the change value to 2
+        //////
+
         findViewById<TextView>(R.id.tvValue).text = TheData.value
     }
 }
